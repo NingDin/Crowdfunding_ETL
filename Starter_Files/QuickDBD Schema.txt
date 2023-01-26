@@ -2,6 +2,10 @@ Campaign
 -
 cf_id PK int
 contact_id int FK - Contacts.contact_id
+Campaign
+-
+cf_id PK int
+contact_id int FK - Contacts.contact_id
 company_name varchar
 description varchar
 goal numeric
@@ -12,8 +16,8 @@ country varchar
 currency varchar
 launched_date date
 end_date date
-category_id varchar FK - Category.category_id
-subcategory_id varchar FK - Subcategory.subcategory_id
+category_id varchar FK >- Category.category_id
+subcategory_id varchar FK >- Subcategory.subcategory_id
 
 
 Category
